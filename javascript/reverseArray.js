@@ -1,3 +1,5 @@
+// JS function that reverses an Array
+
 function reverseArr(input) {
     var newArray = new Array;
     for(var i = input.length-1; i >= 0; i--) {

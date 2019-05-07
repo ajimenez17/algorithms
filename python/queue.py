@@ -3,15 +3,15 @@
 
 # enqueue(val) 	: add val to Queue 
 # dequeue() 		: remove & return front value 
-# front() 		: return (not remove) first val 
+# front() 		    : return (not remove) first val 
 # contains(val) 	: Queue contains val? 
 # isEmpty() 		: Queue contains no values? 
 # size() 			: return num of vals in Queue 
 
 Class Node: 
-	def __init__ (self, value):	
-		self.val = value 
-		self.next = None
+def __init__ (self, value):	
+	self.val = value 
+	self.next = None
 
 Class Queue:
  def __init__ (self):
