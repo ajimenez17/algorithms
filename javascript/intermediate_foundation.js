@@ -1,16 +1,16 @@
-// Part 1
+// Coding Dojo Intermediate Foundation Algorithms
 
 // 1. Sigma - Implement function sigma(num) that given a number, returns the sum of all positive integers up to number (inclusive).  Ex: sigma(3) = 6 (or 1+2+3); sigma(5) = 15 (or 1+2+3+4+5).
 
-// function sigma(num){
-//     var sum = 0;
-//     for(var i= 1; i <= num; i++){
-//         sum = sum + i;
-//     }
-//     console.log(sum);
-//     return sum;
-// }
-// sigma(5);
+function sigma(num){
+    var sum = 0;
+    for(var i= 1; i <= num; i++){
+        sum = sum + i;
+    }
+    console.log(sum);
+    return sum;
+}
+sigma(5);
 
 // 2. Factorial - Write a function factorial(num) that, given a number, returns the product (multiplication) of all positive integers from 1 up to number (inclusive).  For example, factorial(3) = 6 (or 1*2*3); factorial(5) = 120 (or 1*2*3*4*5).
 

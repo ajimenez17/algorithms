@@ -1,4 +1,5 @@
 // JS function that reverses an Array
+// May 7, 2019ß
 
 function reverseArr(input) {
     var newArray = new Array;
